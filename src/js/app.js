@@ -1,3 +1,5 @@
+console.log('app worked')
+
 const characters = [
   {name: 'мечник', health: 10},
   {name: 'маг', health: 100},
@@ -6,3 +8,5 @@ const characters = [
 ];
 
 const alive = characters.filter(item => item.health > 0);
+
+console.log(alive)
